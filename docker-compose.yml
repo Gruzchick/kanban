@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    environment:
+      NODE_ENV: ${CLIENT_NODE_ENV}
+      PORT: ${CLIENT_PORT}
+    image: ${CLIENT_IMAGE_NAME}
+    container_name: ${CLIENT_CONTAINER_NAME}
+    ports:
+      - ${CLIENT_PORT_ON_HOST}:${CLIENT_PORT}
+    volumes:
+      - .:/client
+    command: yarn start
