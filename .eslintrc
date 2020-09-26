@@ -177,11 +177,11 @@
         "extensions": [".tsx"]
       }
     ],
-    "react/jsx-no-bind": "error",
-    "react/jsx-no-literals": "warn",
+    "react/jsx-no-bind": "off",
+    "react/jsx-no-literals": "off",
     "react/jsx-no-useless-fragment": "error",
     "react/jsx-pascal-case": "error",
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "error"
   }
 }

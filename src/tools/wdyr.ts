@@ -13,7 +13,8 @@ if (process.env.NODE_ENV === 'development') {
   const ReactRouter = require('react-router');
   const ReactQuery = require('react-query');
   whyDidYouRender(React, {
-    trackAllPureComponents: true,
+    logOwnerReasons: true,
+    trackAllPureComponents: false,
     trackExtraHooks: [
       [ReactRedux, 'useSelector'],
       [ReactRouter, 'useParams'],

@@ -33,20 +33,6 @@ const config = {
   },
   module: {
     rules: [
-      // {
-      //   test: /\.tsx?$/,
-      //   enforce: 'pre',
-      //   use: [
-      //     {
-      //       loader: 'eslint-loader',
-      //       options: {
-      //         formatter: 'stylish',
-      //         emitWarning: true,
-      //         cache: true,
-      //       },
-      //     },
-      //   ],
-      // },
       {
         test: /\.tsx?$/,
         exclude: /node_modules/,

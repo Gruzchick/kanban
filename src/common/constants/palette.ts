@@ -1,0 +1,11 @@
+export const MAIN_BG = '#0079bf';
+export const STAGE_PAPER_BG = '#ebecf0';
+export const STAGE_PAPER_BG_HOVER = '#d9dce2';
+export const TASK_PAPER_BG = '#fff';
+export const LIGHT_TEXT = '#5e6c84';
+export const DARK_TEXT = '#172b4d';
+export const SUCCESS = '#5aac44';
+export const SUCCESS_HOVERED = '#61bd4f';
+export const WHITE = '#fff';
+export const MAIN_BLUE = '#3d99ce';
+export const MAIN_BLUE_HOVER = '#52a4d4';
