@@ -83,7 +83,6 @@ const config = {
     new StylelintPlugin({ files: './src/**/*.{ts,tsx}' }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production'),
-      'process.env.SERVER_PORT': JSON.stringify(process.env.SERVER_PORT),
     }),
   ],
 };
